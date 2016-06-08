@@ -4,7 +4,43 @@
     color: #555555;
     background-color: white;
     text-align: left;
+    min-width:320px;
 }
+
+.border-but{
+    border-bottom:1px solid #c9c9c9;
+}
+
+.border-up{
+    border-top:1px solid #c9c9c9;
+}
+
+.margin-bottom{
+    margin-bottom:10px;
+}
+
+.margin-bottom2{
+    margin-bottom:20px;
+}
+
+.margin-up{
+    margin-top:-10px;
+}
+
+h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #eeeeee; 
+   line-height: 9px;
+   margin: 10px 0 30px;
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:00px 10px;
+    font-size:18px;
+}
+
 
 .nospace {
     padding: 0px 0px 0px 0px;
@@ -48,6 +84,26 @@ a {
     line-height: 55px;
     border-bottom: 1px solid #c9c9c9;
     font-weight: bold;
+}
+
+.button-menu{
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    height:65px;
+    background-color:white;
+    border-top: 1px solid #eeeeee;
+    z-index:99999;
+}
+
+.button-menu img{
+    width:30px;
+    height:20px;
+    margin:13px 0px 5px 0px;
+}
+
+.b-menu span{
+    color:#805006;
 }
 
 .small-icon {

@@ -1,0 +1,38 @@
+﻿.header img{
+    width:20px;
+    height:20px;
+}
+
+.search-input{
+   margin:10px 0px 0px -15px;
+}
+
+.cat-index{
+    height:100%;
+}
+
+.catgory-index{
+    height:50px;
+    line-height:50px;
+}
+
+.cat-act{
+}
+
+.banner img{
+    width:100%; 
+    height:100px;
+    margin:10px 0px 10px 0px;
+}
+
+.top-categories{
+    display:inline-block;
+    font-size:12px;
+    margin:10px 0px 10px 0px;
+}
+
+.hot-item-p img{
+    width:50px;
+    height:50px;
+    margin:5px 0px 5px 0px;
+}

@@ -1,5 +1,59 @@
 ﻿.shopping-car-tab{
     height:50px;
-    line-height:50px;
     background-color:#f8f8f8;
+}
+
+.shopping-car-tab span {
+    display:inline-block;
+    margin:15px 0px 0px 0px;
+}
+
+.small-icon{
+    margin:16px 0px 0px 0px;
+}
+
+.glyphicon{
+    font-size:20px;
+}
+.shopping-item{
+    height:110px;
+}
+
+.shopping-item2{
+    height:110px;
+    margin-bottom:115px
+}
+
+.select-check{
+    height:110px;
+    line-height:100px;
+}
+
+.shopping-pimg{
+    width:60px;
+    height:60px;
+    margin:18px 0px 0px -4px;
+}
+
+.shopping span{
+    display:inline-block;
+    font-size:12px;
+    margin:5px 0px 5px 8px;
+      
+}
+
+.button-menu2{
+    width:100%;
+    position:fixed;
+    bottom:65px;
+    height:45px;
+    line-height:45px;
+    background-color:white;
+    border-top: 1px solid #eeeeee;
+    z-index:99999;
+}
+
+.payment-btn{
+    background-color:#e33f3e;
+    color:white;
 }
