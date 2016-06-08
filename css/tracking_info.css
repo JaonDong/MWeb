@@ -1,0 +1,92 @@
+﻿.tracing-product {
+    height: 150px;
+}
+
+    .tracing-product img {
+        margin: 23px 0px 0px 0px;
+        border: 1px solid #c9c9c9;
+    }
+
+    .tracing-product span {
+        display: inline-block;
+        margin: 28px 0px 0px 0px;
+    }
+
+.tracking-tab-title {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #c9c9c9;
+    margin: 0px 0px 0px 0px;
+    font-size: 17px;
+}
+
+.tracing-info-status {
+    height: 150px;
+}
+
+    .tracing-info-status span {
+        display: inline-block;
+        margin: 28px 0px 0px 0px;
+        font-size: 16px;
+    }
+
+.circle {
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #f25d5f;
+    margin:17px 0px 0px 0px;
+}
+
+.circle-line{
+    width:2px;
+    height:108px;
+    background-color:#c8c8c8;
+    margin-left:11px;
+}
+
+.circle2 {
+    width: 20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #c8c8c8;
+    margin:17px 0px 0px 2px;
+}
+
+.circle-line2{
+    position:absolute;
+    top:-50px;
+    width:2px;
+    height:200px;
+    background-color:#c8c8c8;
+    margin-left:11px;
+}
+
+.circle-line3{
+    position:absolute;
+    top:-50px;
+    width:2px;
+    height:170px;
+    background-color:#c8c8c8;
+    margin-left:11px;
+}
+
+.driver_details{
+    height:65px;
+    margin:10px 0px 0px 0px;
+}
+
+.driver_details img{
+    width:50px;
+    height:50px;
+    margin:5px 0px 0px 0px;
+}
+
+.driver_details span{
+    display:inline-block;
+    margin:5px 0px 5px 0px;
+}

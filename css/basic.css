@@ -1,0 +1,181 @@
+﻿body {
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+    color: #555555;
+    background-color: white;
+    text-align: left;
+}
+
+.nospace {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.bgwhite {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #555555;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+    /*未访问：蓝色、无下划线 */
+    a:active {
+        color: black;
+    }
+    /*激活：红色 */
+    a:visited {
+        color: black;
+        text-decoration: none;
+    }
+    /*已访问：purple、无下划线 */
+    a:hover {
+        text-decoration: none;
+    }
+    /*鼠标移近：红色、下划线 */
+    a:focus {
+        color: red;
+        outline: none;
+        -moz-outline: none;
+    }
+
+.header {
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #c9c9c9;
+    font-weight: bold;
+}
+
+.small-icon {
+    width: 17px;
+    height: 20px;
+}
+
+.active {
+    color: #e33f3e;
+    font-weight: bold;
+}
+
+.de-active {
+    color: #9a9e9d;
+}
+
+.non-active {
+    color: #9a9e9d;
+}
+
+.register button {
+    background-color: #eeeeee;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #6e7271;
+    font-size: 16px;
+    width: 100%;
+    margin: 25px 0px 15px 0px;
+}
+
+.register2 button {
+    background-color: #e33f3e;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    margin: 25px 0px 15px 0px;
+}
+
+.information-text {
+    font-size: 18px;
+}
+
+.line-through span {
+    text-decoration: line-through;
+}
+
+
+.service-feedback {
+    margin-top: 20px;
+}
+
+.qr-logo {
+    margin: 45px 0px 25px 0px;
+}
+
+/*QR Code Page*/
+
+.qr-img {
+    width: 150px;
+    height: 150px;
+    margin: 25px 0px 55px 0px;
+}
+
+.qr-span {
+    font-size: 30px;
+    color: #6e7271;
+}
+
+/*Message Center Page*/
+
+.message-center span{
+    display:block;
+    height:50px;
+    line-height:50px;
+    margin:15px 0px 10px 0px;
+}
+.message-center img{
+    display:block;
+    height:50px;
+    width:50px;
+    margin:15px 0px 10px 0px;
+}
+
+/*Account-Management Page*/
+
+.account-management{
+    height:100px;
+    line-height:100px;
+    border-bottom:1px solid #c9c9c9;
+}
+
+.driver-img{
+    width:50px;
+    height:50px;
+}
+
+.amr-icon{
+    width:15px;
+    height:15px;
+}
+
+.account-management-tab{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #c9c9c9;
+}
+
+.account-management-tab2{
+    height:50px;
+    line-height:50px;
+    margin:25px 0px -25px 0px;
+}
+
+/*About-Us Page*/
+
+.aboutu-logo{
+    width:100px;
+    height:50px;
+    margin:20px 0px 20px 0px;
+}
+
+.aboutu-span {
+    display:inline-block;
+    font-size: 18px;
+    color: #6e7271;
+    margin:20px 0px 20px 0px;
+}

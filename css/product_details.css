@@ -1,0 +1,25 @@
+﻿.filter-tab{
+    height:50px;
+    line-height:50px;
+    border-bottom: 1px solid #c9c9c9;
+}
+.form-control{
+    margin-top:7px;
+}
+
+.product_detals_tab{
+    height:130px;
+}
+
+.product_detals_tab img{
+    margin-top:12px;
+}
+
+.product_detals_tab span{
+    float:left;
+    margin:8px 0px 5px 0px;
+}
+
+.v-sub-line{
+    border-bottom:1px solid #c9c9c9;
+}

@@ -1,0 +1,51 @@
+﻿.order-amount-summary {
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-size: 17px;
+}
+
+.payment-type-section {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    height: 50px;
+}
+
+
+    .payment-type-section span {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .payment-type-section img {
+        height: 25px;
+        width: 25px;
+        margin: 12px 0px 0px -5px;
+    }
+
+.payment-type-sectionb {
+    height: 50px;
+}
+
+
+    .payment-type-sectionb span {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .payment-type-sectionb img {
+        height: 25px;
+        width: 25px;
+        margin: 12px 0px 0px -5px;
+    }
+
+.other-payment {
+    height: 50px;
+    line-height: 50px;
+}
+
+.payment-help{
+    height:50px;
+    line-height:50px;
+
+}

@@ -1,0 +1,13 @@
+﻿.user-help-tab{
+    float:left;
+    height:50px;
+    line-height:50px;
+    background-color:#f1f5f6;
+    margin-bottom:5px;
+}
+
+.user-help-text span{
+    float:left;
+    margin:5px 0px 5px 0px;
+    text-align:left;
+}
