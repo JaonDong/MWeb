@@ -1,0 +1,17 @@
+﻿.user-evaluation{
+    height:135px;
+}
+
+.user-evaluation img{
+    margin:15px 0px 0px 0px;
+}
+
+.user-evaluation span{
+    display:inline-block;
+    margin:26px 0px 0px 0px;
+    font-size:18px;
+}
+
+.glyphicon{
+    color:#e33f3e;
+}

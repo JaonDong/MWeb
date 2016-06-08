@@ -1,0 +1,27 @@
+﻿.order-amount-successful{
+    height:150px;
+    line-height:150px;
+    border-bottom:1px solid #c9c9c9;
+    margin-bottom:10px;
+}
+
+.order-amount-successful span{
+    font-size:15px;
+    margin:0px 10px 0px 0px;
+}
+
+.order-amount-successful img{
+    width:50px;
+    height:65px;
+    margin:0px 10px 0px 0px;
+}
+
+.order-amount-details{
+    height:180px;
+}
+
+.order-amount-details span{
+    display:inline-block;
+    font-size:18px;
+    margin:15px 0px 10px 0px;
+}

@@ -1,0 +1,69 @@
+﻿.sub-login {
+    color: #e33f3e;
+    font-weight: bold;
+}
+
+.phone-number {
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+    .phone-number input {
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        font-size:16px;
+    }
+
+.sms-code {
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+    .sms-code input {
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        font-size:16px;
+    }
+
+.set-password {
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+    .set-password input {
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        font-size:16px;
+    }
+
+.user-agreement {
+    height: 55px;
+    line-height: 55px;
+    font-size:16px;
+}
+
+.customer-service {
+    height: 30px;
+    line-height: 30px;
+    padding-right: 15px;
+}
+
+.register button {
+    background-color: #eeeeee;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #6e7271;
+    font-size: 16px;
+    width: 100%;
+    margin: 8px 0px 8px 0px;
+}

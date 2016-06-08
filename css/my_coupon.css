@@ -1,0 +1,132 @@
+﻿.my-coupon{
+    margin:30px 0px 30px 0px;
+    position:relative;
+}
+
+.my-coupon-box-a{
+    height:150px;
+    width:170px;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px dashed #c9c9c9;
+    border-radius:5px 0px 0px 5px;
+}
+
+.my-coupon-box-b{
+    height:150px;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    border-radius:0px 5px 5px 0px;
+    margin:0px 0px 0px 130px;
+}
+
+.my-coupon-price{
+    margin:30px 0px 0px 0px;
+    padding:0px 0px 0px 5px;
+}
+
+.my-coupon-price span{
+    font-size:35px;
+}
+
+.my-coupon-price-sp{
+    margin:10px 0px 0px 0px;
+    padding:0px 0px 0px 10px;
+}
+
+.my-coupon-price-sp span{
+    float:left;
+    font-size:17px;
+    color:#999999;
+    margin-top:10px;
+}
+
+.yuan{
+    margin:-20px 10px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+
+.top-half-circle{
+    position:absolute;
+    left:164px;
+    top:-.5px;
+    background-color:white;
+    border-radius:0px 0px 5px 5px;
+    width:13px;
+    height:10px;
+    border-bottom:1px solid #c9c9c9;
+}
+
+.button-half-circle{
+    position:absolute;
+    left:164px;
+    top:140px;
+    background-color:white;
+    border-radius:5px 5px 0px 0px;
+    width:13px;
+    height:10px;
+    border-top:1px solid #c9c9c9;
+}
+
+.general-a{
+    height:35px;
+    line-height:35px;
+    position:relative;
+    margin:-113px 0px 0px 55px;
+    font-size:20px;
+}
+
+.general-btn{
+    float:right;
+    height:35px;
+    position: relative;
+    margin:-112px 0px 0px 170px;
+    background-color:white;
+    color:#e33f3e;
+    border:1px solid #e33f3e;
+}
+
+.general-date{
+    height:35px;
+    width:235px;
+    position: relative;
+    margin:-51px 0px 0px 40px;
+    color:#999999;
+    font-size:17px;
+}
+
+
+.my-coupon-summary{
+    height:150px;
+    background-color:#37383a;
+    color:white;
+}
+
+.my-coupon-summary span{
+    display:block;
+    font-size:18px;
+    margin:30px 0px 0px 0px;
+}
+
+.receive-coupons-info{
+    height:50px;
+    line-height:50px;
+    margin:20px 0px -30px 0px;
+    font-size:18px;
+}
+
+h2 {
+   width: 100%; 
+   border-bottom: 1px solid #eeeeee; 
+   line-height: 15px;
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:0px 15px 0px 15px;
+    font-size:20px;
+    line-height:0px;
+}

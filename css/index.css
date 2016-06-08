@@ -1,0 +1,73 @@
+﻿.header img{
+    width:25px;
+    height:25px;
+}
+
+.search-input {
+    margin:10px 0px -10px 0px;
+}
+
+.live-feed{
+    height:125px;
+    margin:10px 0px 0px 0px;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.live-feed img{
+    width:80px;
+    height:80px;
+    border:1px solid #c9c9c9;
+    border-radius:45px;
+    margin:21px 0px 0px 0px;
+}
+
+.live-feed span{
+    display:inline-block;
+    margin:8px 0px 0px 30px;
+}
+
+.live-feed button{
+    margin:5px 0px 0px -29px;
+
+}
+
+.live-feed-banner{
+    background-image:url(/content/images/bofang.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    height:217px;
+}
+
+.live-counter span{
+    display:inline-block;
+    height:40px;
+    background-color:#7b7979;
+    color:white;
+    border-radius:8px;
+    padding:12px 20px 10px 22px;
+    margin:15px 0px 0px 25px;
+    opacity:.9;
+}
+.live-counter img{
+    width:20px;
+    height:15px;
+    margin:-6px 10px 0px 0px;
+}
+
+.one-doller-buy{
+    height:212px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.one-doller-buy img{
+    width:80px;
+    height:80px;
+    margin:15px 0px 15px 0px;
+}
+
+.one-doller-buy span{
+    display:inline-block;
+    font-size:11px;
+    margin:5px 0px 5px 0px;
+}

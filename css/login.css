@@ -1,0 +1,59 @@
+﻿.user-id {
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+    .user-id input {
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+.set-password {
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+    .set-password input {
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        width: 100%;
+        font-size: 16px;
+    }
+
+.eye-icon {
+    width: 35px;
+    height: 20px;
+}
+
+.customer-service {
+    height: 30px;
+    line-height: 30px;
+    padding-right: 15px;
+    margin-bottom:15px;
+}
+
+.payment-type-section img{
+    margin-top:10px;
+    width:55px;
+    height:70px;
+}
+
+h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #eeeeee; 
+   line-height: 9px;
+   margin: 10px 0 30px;
+} 
+
+h2 span { 
+    background:#fff; 
+    padding:00px 10px;
+    font-size:18px;
+}

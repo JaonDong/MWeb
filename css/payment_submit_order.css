@@ -1,0 +1,169 @@
+﻿.payment-select-address {
+    height: 110px;
+}
+    .payment-select-address span {
+        float: left;
+        margin: 10px 0px 0px 0px;
+    }
+
+.right-icon {
+    height: 110px;
+    line-height: 110px;
+}
+
+.location-b {
+    float: left;
+    margin-top: 71px;
+}
+
+.address-line {
+    background-image: url('../../content/icon/address-line.png');
+    width: 100%;
+    height: 7px;
+    margin-top: 10px;
+}
+
+.payment-tab {
+    height: 65px;
+    line-height: 65px;
+    font-size: 20px;
+}
+
+.payment-item {
+    height: 135px;
+    border-top: 1px solid #eef2f3;
+    border-bottom: 1px solid #eef2f3;
+    margin: 15px 0px 15px 0px;
+}
+
+    .payment-item img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .payment-item img {
+        margin-top: 35px;
+    }
+
+.payment-info span {
+    float: left;
+    margin: 11px 0px 2px 0px;
+}
+
+.qty span {
+    float: left;
+    margin-top: 97px;
+}
+
+.payment-option {
+    height: 100px;
+    border-top: 1px solid #eef2f3;
+    border-bottom: 1px solid #eef2f3;
+    margin: 15px 0px 15px 0px;
+}
+
+    .payment-option span {
+        height: 50px;
+        line-height: 50px;
+    }
+
+.coupon-option {
+    height: 100px;
+    border-top: 1px solid #eef2f3;
+    border-bottom: 1px solid #eef2f3;
+    margin: 15px 0px 15px 0px;
+}
+
+    .coupon-option span {
+        height: 50px;
+        line-height: 50px;
+    }
+
+.coupon img {
+    margin: 14px 0px 0px -3px;
+    padding: 0px 0px 0px 0px;
+}
+
+.switch-img {
+    width: 60px;
+    height: 35px;
+}
+
+.coupon-qty {
+    background-color: #e33f3e;
+    color: white;
+    padding: 0px 8px 0px 8px;
+    margin-left: 5px;
+}
+
+.payment-summary {
+    height: 150px;
+    margin: 10px 0px 15px 0px;
+    border-top: 1px solid #eef2f3;
+    border-bottom: 1px solid #eef2f3;
+}
+
+    .payment-summary span {
+        height: 25px;
+        line-height: 25px;
+        margin: 10px 0px 0px 0px;
+    }
+
+.payment-note {
+    height: 50px;
+    line-height: 50px;
+    background-color: #fef7e7;
+    margin-bottom: 50px;
+}
+
+.payment-submit {
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #eef2f3;
+}
+
+.buy-bt {
+    background-color: #e33f3e;
+    color: white;
+    font-weight: bold;
+}
+
+.to-be-paid-id{
+    height:50px;
+    line-height:50px;
+    margin:0px 0px 10px 0px;
+}
+
+.to-be-paid {
+    height: 265px;
+    margin: 10px 0px 15px 0px;
+    border-top: 1px solid #eef2f3;
+    border-bottom: 1px solid #eef2f3;
+}
+    .to-be-paid span {
+        float:right;
+        display:inline-block;
+        height: 25px;
+        line-height: 25px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .to-be-paid-submit {
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    height: 60px;
+    border-top: 1px solid #eef2f3;
+}
+
+    .to-be-paid-submit span{
+        display:inline-block;
+        margin:6px 0px 0px 0px;
+    }
+    
+    .to-be-paid-submit button{
+        margin-top:10px;
+    }

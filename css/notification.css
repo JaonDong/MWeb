@@ -1,0 +1,32 @@
+﻿.notification-head{
+    height:50px;
+    line-height:50px;
+    margin:25px 0px 10px 0px;
+    color:#6e7271;
+}
+
+.notification-box{
+    height:150px;
+    margin:0px 0px 0px 0px;
+    border:1px solid #c9c9c9;
+    border-radius:5px;
+}
+
+.notification-box2{
+    height:155px;
+    margin:0px 0px 0px 0px;
+    border:1px solid #c9c9c9;
+    border-radius:5px;
+}
+
+.notification-box span{
+    display:inline-block;
+    margin:25px 0px 15px 0px;
+    font-size:20px;
+}
+
+.notification-box2 span{
+    display:inline-block;
+    margin:18px 0px 15px 0px;
+    font-size:20px;
+}
