@@ -1,0 +1,126 @@
+﻿.vline{
+    height:23px;
+}
+
+.product_detail{
+    min-height:65px;
+}
+
+.product_detail span{
+    display:inline-block;
+    margin:8px 0px 4px 0px;
+}
+
+.product_coupon{
+    height:50px;
+    line-height:50px;
+}
+
+.coupon-opt{
+    background-image:url(../../../content/icon/red-coupon.png);
+    background-size: 100% auto;
+    padding:0px 10px 0px 10px;
+    color:white;
+    font-size:12px;
+}
+
+.address{
+    font-size:10px;
+    overflow:hidden;
+}
+
+.product_review{
+    height:65px;
+}
+
+.product_review span{
+    display:inline-block;
+    margin:7px 2px 5px 2px;
+    overflow:hidden;
+}
+
+.product-d-tab{
+    height:60px;
+    line-height:60px;
+}
+
+.product-images{
+    margin-bottom:55px;
+}
+
+.buy-now{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:45px;
+    line-height:45px;
+    background-color:white;
+}
+
+.buyn1 {
+    background-color:#fee300;
+    color:white;
+}
+
+.buyn1 a{
+    background-color:#fee300;
+    color:white;
+}
+
+.buyn2 {
+    background-color:#e33f3e;
+    color:white;
+}
+
+.buyn2 a{
+    background-color:#e33f3e;
+    color:white;
+}
+
+
+.sub-buy-menu{
+    position:fixed;
+    width:100%;
+    bottom:45px;
+    height:280px;
+    background-color:pink;
+}
+
+.sub-buy-product{
+    height:80px;
+    background-color:yellow;
+}
+
+.sub-buy-product img{
+    width:60px;
+    height:60px;
+    margin:-15px 0px 0px 0px;
+}
+
+.sub-buy-product{
+    font-size:12px;
+}
+
+.sbp span{
+    display:inline-block;
+    margin:15px 0px 0px 0px;
+}
+
+.sub-x-close{
+    margin:5px 0px 0px 0px;
+    font-size:18px;
+}
+
+.sub-product-qty{
+    height:150px;
+    background-color:orange;
+}
+
+.sub-product-qty span{
+    display:inline-block;
+    margin:10px 0px 10px 0px;
+}
+
+.sub-product-qty button{
+    margin:0px 0px 5px 0px;
+}

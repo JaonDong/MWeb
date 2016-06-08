@@ -1,0 +1,79 @@
+﻿.personal-summary {
+    height: 155px;
+    color: white;
+    background-color: #e33f3e;
+}
+
+.personal-chat {
+    margin: 18px 0px 10px 0px;
+}
+
+    .personal-chat img {
+        width: 22px;
+        height: 22px;
+    }
+
+.personal-info {
+    height: 65px;
+    font-size:12px;
+}
+
+    .personal-info img {
+        width: 65px;
+        height: 65px;
+    }
+
+   .pi span{
+       display:inline-block;
+       margin:7px 0px 10px 0px;
+       
+   }
+
+   .pi-block{
+       background-color:#cc412a;
+       border:1px solid #b91809;
+       border-radius:15px;
+       padding:3px 10px 3px 10px;
+       margin:0px 0px 0px 10px;
+   }
+
+   .acc-mang span{
+       margin:22px 0px 0px 0px;
+   }
+
+   .personal-coupon{
+       font-size:13px;
+       margin:5px 0px 0px 0px;
+   }
+
+   .personal-tab{
+       height:80px;
+       font-size:12px;
+   }
+
+   .personal-tab img{
+       width:25px;
+       height:25px;
+       margin:15px 0px 10px 0px;
+   }
+
+   .personal-span span{
+       display:inline-block;
+       margin:20px 0px 15px 0px;
+   }
+
+   .hotitem{
+      display:inline-block;
+      margin-bottom:65px;
+
+   }
+
+   .hotitem span{
+       font-size:12px;
+       display:inline-block;
+       margin:8px 0px 5px 0px;
+   }
+
+   .hotitem img{
+       margin:5px 0px 5px 0px;
+   }
