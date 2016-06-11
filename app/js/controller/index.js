@@ -3,11 +3,6 @@
  */
 define(['app','config'],function(app,config){
     app.controller("myController",['$scope', '$compile', 'myApi', '$timeout',function($scope,$compile,$timeout){
-        $scope.creator=new app.layoutCreator();
 
-
-        app.layoutCreator=function(){
-
-        };
     }]);
 });

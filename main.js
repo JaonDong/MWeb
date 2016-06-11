@@ -27,17 +27,15 @@ require.config({
         },
         'angular-route':{
             deps:['angular'],
-            exports:'route'
+            exports:'angular-route'
         },
         globalVar:{
             deps:['jquery'],
             exports:'globalVar'
         }
-    }
+    },
+    deps: ['app']
 });
+/*require(['app','HomeController'],function(){
 
-require(['angular', 'route', 'app', 'angular-resource',
-    'config','controller/index','directive/index'],
-    function(app,config){
-        app.init();
-    });
+});*/

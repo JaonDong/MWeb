@@ -1,0 +1,56 @@
+<link href="css/login.css" rel="stylesheet" />
+<div class="container-fluid" ng-controller="loginController" >
+    <div class="header">
+        <div class="col-xs-1 text-center">
+            <img class="small-icon" src="content/icon/left-arrow.png" />
+        </div>
+        <div class="col-xs-10 text-center">
+            <span>登录</span>
+        </div>
+    </div>
+    <div class="user-id">
+        <div class="col-xs-1">
+            <img class="small-icon" src="content/icon/cell-phone.png" />
+        </div>
+        <div class="col-xs-10">
+            <input type="text" placeholder="用户名/手机号" ng-model="user.name">
+        </div>
+    </div>
+    <div class="set-password">
+        <div class="col-xs-1">
+            <img class="small-icon" src="content/icon/lock.png" />
+        </div>
+        <div class="col-xs-8">
+            <input type="text" placeholder="请输入密码" ng-model="user.password">
+        </div>
+        <div class="col-xs-2">
+            <img class="eye-icon" src="content/icon/eye-hide.png" />
+        </div>
+    </div>
+    <div class="col-xs-12 register">
+        <button type="button" ng-click="login(user)">登录</button>
+    </div>
+    <div class="col-xs-12 customer-service">
+        <a href="new_registration.html" class="pull-left"><span>手机快速注册</span></a><a href="forget_password.html" class="pull-right"><span>忘记密码</span></a>
+    </div>
+
+    <div class="payment-type-section">
+        <div class="col-xs-12 text-center">
+            <h2><span>第三方登录</span></h2>
+        </div>
+        <div class="col-xs-3 text-center">
+            <img src="content/icon/wechat.png" />
+        </div>
+        <div class="col-xs-3 text-center">
+            <img src="content/icon/qq.png" />
+        </div>
+        <div class="col-xs-3 text-center">
+            <img src="content/icon/waibo.png" />
+        </div>
+        <div class="col-xs-3 text-center">
+            <img src="content/icon/alipay.png" />
+        </div>
+    </div>
+
+
+</div>
