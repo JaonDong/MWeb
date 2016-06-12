@@ -3,7 +3,9 @@
 }
 
     .tracing-product img {
-        margin: 23px 0px 0px 0px;
+        width:80px;
+        height:80px;
+        margin: 31px 0px 0px 5px;
         border: 1px solid #c9c9c9;
     }
 

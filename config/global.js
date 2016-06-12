@@ -6,7 +6,20 @@ define(function(require){
     'use strict';
 
     return {
-        webapi:'http://127.0.0.1:8080/chinook/service/',
+        webApi:{
+            path:'http://115.159.210.12:80/chinook/service/',
+            jsonp:'?callback=JSON_CALLBACK',
+            getPath:function(pathStr){
+                return this.path+pathStr+this.jsonp;
+            }
+        },
+        apiList:{
+            user:{
+                register:'user/webregister',
+                login:'user/weblogin',
+                sendCode:'user/websendLoginCode'
+            }
+        },
         user:{
             name:'dong',
             psw:'123123'

@@ -15,6 +15,14 @@ define(['angular','angular-route','controllers'],function(angular){
             .when('/login',{
                 templateUrl:'app/views/login.html',
                 controller:'loginController'
+            })
+            .when('/register',{
+                templateUrl:'app/views/register.html',
+                controller:'registerController'
+            })
+            .when('/forgetPwd1',{
+                templateUrl:'app/views/forget_password1.html',
+                controller:'forgetPwd1Controller'
             });
     });
 

@@ -5,26 +5,28 @@
 }
 
 .sales-info-img {
-    height: 150px;
+    height: 135px;
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
 }
 
 .sales-info-img img{
-    width:90px;
-    height:90px;
+    width:75px;
+    height:75px;
     margin:28px 0px 0px 0px;
 }
 .sales-info-summary{
     height:50px;
     line-height:50px;
-    margin:0px 0px 5px 0px;
+    margin:0px 0px 0px 5px;
+    font-size:11px;
 }
 
 .btn{
     color:#e33f3e;
     border:1px solid #e33f3e;
     background-color:white;
+    margin:0px 0px 0px -10px;
 }
 
 .btn2{

@@ -7,7 +7,7 @@ require.config({
         css: '../../libs/requirejs/css',
         text: '../../libs/requirejs/text',
         views: '../views',
-        config: '../../config/global',
+        global: '../../config/global',
         jquery:'../../libs/jquery.min',
         bootstrap:'../../libs/bootstrap',
         angular:'../../libs/angular-1.4.2/angular',
@@ -32,6 +32,9 @@ require.config({
         globalVar:{
             deps:['jquery'],
             exports:'globalVar'
+        },
+        global:{
+            exports:'global'
         }
     },
     deps: ['app']

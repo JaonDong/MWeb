@@ -1,0 +1,56 @@
+﻿
+    <link href="css/registration.css" rel="stylesheet" />
+    <div class="container-fluid" ng-controller="registerController">
+        <div class="header">
+            <div class="col-xs-1 text-center">
+                <a href="/login.html"><img class="small-icon" src="content/icon/left-arrow.png" /></a>
+            </div>
+            <div class="col-xs-7 text-center">
+                <span>手机快速注册</span>
+            </div>
+            <div class="col-xs-3 text-center">
+                <a href="/login.html"><span class="active">登录</span></a>
+            </div>
+        </div>
+        <div class="phone-number ">
+            <div class="col-xs-1">
+                <img class="small-icon" src="content/icon/cell-phone.png" />
+            </div>
+            <div class="col-xs-6">
+                <input  type="text" placeholder="请输入手机号（11位)" ng-model="user.phoneNum">
+            </div>
+            <div class="col-xs-3">
+                <button type="button" class="btn btn-danger" ng-disabled="codeState.clickState"  ng-click="codeState.getCode()">{{codeState.codeText}}</button>
+            </div>
+        </div>
+        <div class="sms-code">
+            <div class="col-xs-1">
+                <img class="small-icon" src="content/icon/email.png" />
+            </div>
+            <div class="col-xs-9">
+                <input type="text" placeholder="请输入短信验证码"  ng-model="user.code" ng-minlength="11" ng-maxlength="11">
+            </div>
+        </div>
+        <div class="set-password">
+            <div class="col-xs-1">
+                <img class="small-icon" src="content/icon/lock.png" />
+            </div>
+            <div class="col-xs-9">
+                <input type="password" placeholder="请设置密码（6-20位字符)" ng-minlength="6" ng-maxlength="20" ng-model="user.password">
+            </div>
+        </div>
+        <div class="user-agreement">
+            <div class="col-xs-1">
+                <img class="small-icon" src="content/icon/{{circleImg}}"  ng-click="selectCircle()"/>
+            </div>
+            <div class="col-xs-9">
+                <span>同意</span> <a href="#"><span>《五级风用户协议》</span></a>
+            </div>
+        </div>
+        <div class="col-xs-12 register">
+            <button type="button" class="btn btn-danger"  ng-disabled="registerState"  ng-click="register(user)">注册</button>
+        </div>
+        <div class="col-xs-12 customer-service">
+            <a href="#"><span>遇到问题？</span></a>&nbsp; &nbsp;<a href="#"><span>联系客服</span></a>
+        </div>
+    </div>

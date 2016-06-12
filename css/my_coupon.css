@@ -75,8 +75,7 @@
     height:35px;
     line-height:35px;
     position:relative;
-    margin:-113px 0px 0px 55px;
-    font-size:20px;
+    margin:-113px 0px 0px 32px;
 }
 
 .general-btn{
@@ -91,9 +90,8 @@
 
 .general-date{
     height:35px;
-    width:235px;
     position: relative;
-    margin:-51px 0px 0px 40px;
+    margin:-51px 0px 0px 25px;
     color:#999999;
     font-size:17px;
 }
