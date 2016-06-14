@@ -9,8 +9,7 @@ define(['angular','angular-route','controllers'],function(angular){
         //路由初始化
         $routeProvider
             .when('/',{
-                templateUrl:'app/views/index.html',
-                controller:'MyHomeController'
+                templateUrl:'app/views/index.html'
             })
             .when('/login',{
                 templateUrl:'app/views/login.html',
@@ -29,6 +28,10 @@ define(['angular','angular-route','controllers'],function(angular){
     app.run(function(){
         console.log("app running...");
     });
+    //启动
+    app.init=function(){
+        angular.bootstrap(document,['myApp'])
+    };
 
-    return angular.bootstrap(document,['myApp']);
+    return app;
 });

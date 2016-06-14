@@ -35,10 +35,14 @@ require.config({
         },
         global:{
             exports:'global'
+        },
+        app:{
+            deps:['angular','angular-route'],
+            exports:'app'
         }
     },
     deps: ['app']
 });
-/*require(['app','HomeController'],function(){
-
-});*/
+require(['app'],function(app){
+    app.init();
+});

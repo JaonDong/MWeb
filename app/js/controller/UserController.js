@@ -1,7 +1,7 @@
 /**
  * Created by Ta_wuhen on 2016/6/11.
  */
-define(['controllerHelp','global','bootstrap'],function(controllerHelp,global){
+define(['controllerHelp','global','bootstrap','directive/comDirective'],function(controllerHelp,global){
     //登录
     controllerHelp.controller('loginController',function($scope,$http){
         $scope.user={name:'', password:''};
@@ -91,9 +91,9 @@ define(['controllerHelp','global','bootstrap'],function(controllerHelp,global){
             }
         };
     }]);
-    controllerHelp.controller('forgetPwd1Controller',function($scope){
+    controllerHelp.controller('forgetPwd1Controller',function($scope,$interval){
         //验证码
-        $scope.code=function(){
+        $scope.freshCode=function(){
             var codeLength=4;
             var val='';
             var selectChar = new Array(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C',
@@ -104,7 +104,14 @@ define(['controllerHelp','global','bootstrap'],function(controllerHelp,global){
                 var charIndex = Math.floor(Math.random() * 36);
                 val += selectChar[charIndex];
             }
-            return val;
+            $scope.code=val;
         };
+        $scope.freshCode();
+        //下一步
+        $scope.nextStep=function(){
+        };
+        $interval(function(){
+            /*console.log($scope.phoneNum.$error.phoneNumValidate);*/
+        },1000,60);
     });
 });
