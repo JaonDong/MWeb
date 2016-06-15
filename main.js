@@ -1,5 +1,6 @@
 /**
  * Created by Jack on 6/8/2016.
+ * 就试试，行不。afaf
  */
 require.config({
     baseUrl:'app/js',
